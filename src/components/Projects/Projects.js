@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import project1 from "../../Assets/Projects/project1.png";
+import project2 from "../../Assets/Projects/project2.png";
+import project3 from "../../Assets/Projects/project3.png";
+import project4 from "../../Assets/Projects/project4.png";
 
 function Projects() {
   return (
@@ -23,7 +21,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={project2}
               isBlog={false}
               title="Meals_On_Wheels"
               description="Meals On Wheels is a React.js application that revolutionizes meal support in communities. With a user-friendly interface, it simplifies meal donations, orders, and deliveries"
@@ -33,7 +31,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={project1}
               isBlog={false}
               title="EcommerceWebsite"
               description="I build and deploy a full responsive Ecommerce Website using HTML, CSS, and JavaScript. Explore modern web design fundamentals, from crafting a responsive homepage to building a dynamic shopping cart"
@@ -43,7 +41,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={project4}
               isBlog={false}
               title="QR_Code"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
@@ -53,7 +51,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={project3}
               isBlog={false}
               title="DoBu_Material_Art"
               description="DoBu Martial Arts is a martial arts gym offering diverse classes in martial arts, fitness training, and self-defense courses"
@@ -61,7 +59,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -146,7 +144,7 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
