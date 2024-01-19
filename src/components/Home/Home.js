@@ -1,13 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+// import homeLogo from "../../Assets/home-main.svg";
+import me2 from "../../Assets/me2.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
   return (
-    <section>
+    <section className="pan-want-bg">
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -32,10 +33,10 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={me2}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "450px", width: "400px" }}
               />
             </Col>
           </Row>

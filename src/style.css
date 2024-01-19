@@ -254,10 +254,14 @@ button:focus {
   padding-top: 80px !important;
 }
 
+.pan-want-bg {
+  background: var(--image-gradient);
+  z-index: -999;
+}
+
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  z-index: 1;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
