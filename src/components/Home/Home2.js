@@ -62,6 +62,7 @@ function Home2() {
             <p>
               Let's <span className="purple">connect! 🚀🌐 </span>with me
             </p>
+            <p>📧pansu2970@gmail.com | 📞+95 9451335261</p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
