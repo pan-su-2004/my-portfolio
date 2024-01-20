@@ -31,7 +31,7 @@ function Projects() {
               isBlog={false}
               title="Meals_On_Wheels"
               description="Meals On Wheels is a React.js application that revolutionizes meal support in communities. With a user-friendly interface, it simplifies meal donations, orders, and deliveries"
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/pan-su-2004/meals_on_wheel"
             />
           </Col>
 
@@ -41,7 +41,7 @@ function Projects() {
               isBlog={false}
               title="Ecommerce_Website"
               description="I build and deploy a full responsive Ecommerce Website using HTML, CSS, and JavaScript. Explore modern web design fundamentals, from crafting a responsive homepage to building a dynamic shopping cart"
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://github.com/pan-su-2004/EcommerceWebsite"
             />
           </Col>
 
