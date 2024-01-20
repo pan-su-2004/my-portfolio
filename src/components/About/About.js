@@ -21,9 +21,22 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1
+              style={{
+                fontSize: "2.1em",
+                paddingInline: "20px",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
               Get to Know <strong className="purple">Me</strong>
+              <img
+                src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png"
+                alt="background-gif"
+                style={{ width: "40px", height: "40px" }}
+              />
             </h1>
+            {/* Add the GIF directly after the <h1> tag */}
             <Aboutcard />
           </Col>
           <Col
@@ -31,7 +44,12 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
+            <img
+              src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif"
+              alt="about-gif"
+              className="img-fluid"
+            />
           </Col>
         </Row>
         <h1 className="project-heading">

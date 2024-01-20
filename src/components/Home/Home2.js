@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/pan.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -105,6 +105,14 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <Row>
+              <Col md={12} className="home-about-gif">
+                <img
+                  src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
+                  alt="Gradient Line"
+                />
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>
