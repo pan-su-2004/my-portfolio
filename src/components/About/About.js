@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import AboutCard from "./AboutCard";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -37,7 +36,7 @@ function About() {
               />
             </h1>
             {/* Add the GIF directly after the <h1> tag */}
-            <Aboutcard />
+            <AboutCard />
           </Col>
           <Col
             md={5}

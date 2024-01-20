@@ -37,6 +37,7 @@ function ResumeNew() {
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document> */}
           <img
+            alt="pdf"
             src={pan_pdf}
             className="d-flex justify-content-center"
             style={{ maxHeight: "450px", width: "400px" }}
