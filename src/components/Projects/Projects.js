@@ -51,7 +51,7 @@ function Projects() {
               isBlog={false}
               title="QR_Code"
               description="This project is a responsive QR Code Generator web application. Users can input text or URLs, and with a simple click, dynamically generate QR codes. Created using HTML, CSS, and JavaScript, it seamlessly integrates with the QR Server API for efficient QR code generation"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://www.linkedin.com/in/pan-su"
             />
           </Col>
 
@@ -61,7 +61,7 @@ function Projects() {
               isBlog={false}
               title="DoBu_Material_Art"
               description="DoBu Martial Arts is a martial arts gym offering diverse classes in martial arts, fitness training, and self-defense courses. This project utilizes HTML, CSS, and JavaScript to create a user registration form with client-side validation"
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              ghLink="https://github.com/pan-su-2004/dobu_material_art"
             />
           </Col>
 
@@ -71,7 +71,7 @@ function Projects() {
               isBlog={false}
               title="Math_Quiz_App"
               description="The Math_Quiz mobile app, crafted for an educational charity, empowers young learners in mastering mental arithmetic. With a game format comprising 10 questions covering addition, subtraction, multiplication, and division within the range of 1 to 12, users navigate through three levels of difficulty."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/pan-su-2004?tab=repositories"
             />
           </Col>
 
@@ -81,7 +81,7 @@ function Projects() {
               isBlog={false}
               title="In_A_Box"
               description="I spearheaded the development of In_A_Box's company website in response to the surging demand for their food box delivery services with html,css and bootstrap5."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/pan-su-2004/in_a_box"
             />
           </Col>
 
@@ -91,7 +91,7 @@ function Projects() {
               isBlog={false}
               title="Boutiqa_Prototype"
               description="I spearheaded the creation of a prototype for Boutiqa—a dynamic Rich Internet Application catering to both sellers and consumers. The design emphasizes a consumer-centric approach, ensuring an enhanced user experience in the marketplace."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/pan-su-2004?tab=repositories"
             />
           </Col>
 
@@ -101,7 +101,7 @@ function Projects() {
               isBlog={false}
               title="Drone_Landing"
               description="Crafted with HTML, CSS, and JavaScript, the Drone Landing Page is a dynamic web presence for the Drone.Series racing event. The page features a sleek design with a navigation menu that smoothly slides into view upon activation."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/pan-su-2004/drone_landing_page"
             />
           </Col>
 
@@ -111,7 +111,7 @@ function Projects() {
               isBlog={false}
               title="NFT"
               description="Dive into the captivating world of NFTs with this HTML and CSS-driven website with clean layout, responsive design, and engaging content make it a standout project."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/pan-su-2004/my_nft"
             />
           </Col>
 
@@ -121,7 +121,7 @@ function Projects() {
               isBlog={false}
               title="Generate_Password"
               description="Explore the simplicity and utility of this web-based tool for generating random passwords. With a modern interface, this project allows users to create secure and unique passwords at the click of a button."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/pan-su-2004/generate_password"
             />
           </Col>
 
@@ -131,7 +131,7 @@ function Projects() {
               isBlog={false}
               title="Know_Your_Neighborhood"
               description="Dive into the innovative Know Your Neighborhood (KYN) project, a comprehensive web application designed to connect users with their local community. The project seamlessly integrates various APIs, allowing users to register, login, and explore surrounding stores effortlessly."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/pan-su-2004?tab=repositories"
             />
           </Col>
 
@@ -141,7 +141,7 @@ function Projects() {
               isBlog={false}
               title="Dashboard"
               description="Experience efficiency and control with the Responsive Dashboard project. This web application boasts a user-friendly interface, granting instant access to vital functionalities through a sidebar navigation system."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/pan-su-2004/dashboard"
             />
           </Col>
         </Row>
