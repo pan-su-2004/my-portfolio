@@ -98,7 +98,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Contact
+                <ImBlog style={{ marginBottom: "2px" }} /> LinkedIn
               </Nav.Link>
             </Nav.Item>
 

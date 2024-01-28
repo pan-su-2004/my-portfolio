@@ -35,20 +35,26 @@ function About() {
                 style={{ width: "40px", height: "40px" }}
               />
             </h1>
-            {/* Add the GIF directly after the <h1> tag */}
             <AboutCard />
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{
+              paddingTop: "50px",
+              paddingBottom: "50px",
+              cursor: "pointer",
+            }}
             className="about-img"
           >
-            {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
-            <img
-              src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif"
-              alt="about-gif"
-              className="img-fluid"
-            />
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/SuC1Fzciyzo?controls=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              title="Introduction video Pan su"
+            ></iframe>
           </Col>
         </Row>
         <h1 className="project-heading">

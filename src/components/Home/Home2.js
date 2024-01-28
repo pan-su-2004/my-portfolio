@@ -1,11 +1,27 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import myImg from "../../Assets/pan.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const qualifications = [
+    {
+      title: "Level 5 Higher National Diploma",
+      field: "Computer Scient",
+      institution: "Your Institution Name",
+      year: "Year of Completion",
+    },
+    {
+      title: "Level 5 Higher National Diploma",
+      field: "Computer Scient",
+      institution: "Your Institution Name",
+      year: "Year of Completion",
+    },
+
+    // Add more qualifications as needed
+  ];
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -51,6 +67,29 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
+        <Row>
+          <h1 className="project-heading">
+            My Interactive <strong className="purple">Experiences </strong>
+          </h1>
+          <p style={{ color: "white" }}>
+            Let's dive into my recent creations🚀
+          </p>
+          {qualifications.map((qualification, index) => (
+            <Col md={4} key={index} className="project-card">
+              <Card className="project-card-view">
+                {/* <Card.Img variant="top" src={qualification.image} alt="card-img" /> */}
+                <Card.Body>
+                  <Card.Title>{qualification.title}</Card.Title>
+                  <Card.Text style={{ textAlign: "justify" }}>
+                    {qualification.institution}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -63,7 +102,6 @@ function Home2() {
                 <a
                   href="https://github.com/pan-su-2004"
                   target="_blank"
-                  rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
@@ -73,7 +111,6 @@ function Home2() {
                 <a
                   href="https://www.facebook.com/pan.su.5074/"
                   target="_blank"
-                  rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillFacebook />
@@ -83,7 +120,6 @@ function Home2() {
                 <a
                   href="https://www.linkedin.com/in/pan-su/"
                   target="_blank"
-                  rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
@@ -93,7 +129,6 @@ function Home2() {
                 <a
                   href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
-                  rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
