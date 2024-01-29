@@ -61,6 +61,16 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                // as={Link}
+                href="/#ContactInfo"
+                // onClick={() => updateExpanded(false)}
+              >
+                <ImBlog style={{ marginBottom: "2px" }} /> ContactInfo
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
@@ -89,16 +99,6 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                href="https://www.linkedin.com/in/pan-su"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> LinkedIn
               </Nav.Link>
             </Nav.Item>
 

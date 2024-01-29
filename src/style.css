@@ -14,6 +14,19 @@ html {
   --imp-text-color: #c770f0;
 }
 
+#edu-card {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 379px) {
+  #edu-card {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -364,8 +377,9 @@ button:focus {
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  z-index: 999;
 }
-
+/* 
 .home-social-icons::before {
   content: "";
   position: absolute;
@@ -377,13 +391,13 @@ button:focus {
   background: #68187a;
   transition: 0.5s;
   transform: scale(0.9);
-  z-index: -1;
+  z-index: -999;
 }
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #801f95;
-}
+} */
 
 .home-social-icons:hover {
   color: #87209e;
