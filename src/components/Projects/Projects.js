@@ -51,7 +51,7 @@ function Projects() {
               isBlog={false}
               title="QR_Code"
               description="This project is a responsive QR Code Generator web application. Users can input text or URLs, and with a simple click, dynamically generate QR codes. Created using HTML, CSS, and JavaScript, it seamlessly integrates with the QR Server API for efficient QR code generation"
-              ghLink="https://www.linkedin.com/in/pan-su"
+              ghLink="https://github.com/pan-su-2004/QR-code"
             />
           </Col>
 
