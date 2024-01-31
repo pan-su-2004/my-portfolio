@@ -16,7 +16,7 @@ html {
 
 #edu-card {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: row;
 }
 
