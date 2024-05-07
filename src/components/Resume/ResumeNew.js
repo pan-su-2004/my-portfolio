@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pan_pdf from "../../Assets/pan_pdf.png";
-import pdf from "../../Assets/Resume-Pan-Su.pdf";
+import pan_pdf from "../../Assets/Resume.jpg";
+import pdf from "../../Assets/Resume.jpg";
 import { AiOutlineDownload } from "react-icons/ai";
 import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -34,7 +34,7 @@ function ResumeNew() {
             alt="pdf"
             src={pan_pdf}
             className="d-flex justify-content-center"
-            style={{ maxHeight: "450px", width: "400px" }}
+            style={{ maxHeight: "500px", width: "400px" }}
           ></img>
         </Row>
 

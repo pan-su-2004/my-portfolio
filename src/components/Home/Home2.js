@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import myImg from "../../Assets/pan.png";
+import myImg from "../../Assets/me2.png";
 import eduImage1 from "../../Assets/educlaas.jpeg";
 import eduImage2 from "../../Assets/scrimba.png";
 import eduImage3 from "../../Assets/Yadanabo.png";
@@ -76,14 +76,19 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  HTML, CSS, Bootstrap, JavaScript, React, Git, and GitHub
+                  HTML, CSS, Bootstrap, JavaScript, Git, and GitHub
                 </b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{ maxHeight: "400px", width: "280px", margin: "0" }}
+              />
             </Tilt>
           </Col>
         </Row>

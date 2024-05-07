@@ -22,10 +22,10 @@ function Techstack() {
         <DiJavascript1 />
         <h5 style={{ fontSize: "14px" }}>JavaScript</h5>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiReact />
         <h5 style={{ fontSize: "14px" }}>React</h5>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />
         <h5 style={{ fontSize: "14px" }}>HTML</h5>
@@ -46,10 +46,10 @@ function Techstack() {
         <SiGithub />
         <h5 style={{ fontSize: "14px" }}>GitHub</h5>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiAdobephotoshop />
         <h5 style={{ fontSize: "14px" }}>Adobe</h5>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
         <h5 style={{ fontSize: "14px" }}>Tailwind</h5>

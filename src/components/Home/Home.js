@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import homeLogo from "../../Assets/home-main.svg";
-import me2 from "../../Assets/me2.png";
+import pan from "../../Assets/pan.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -15,10 +15,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave">
-                  💜
-                </span>
+                Hi There! <span className="wave">💜</span>
               </h1>
 
               <h1 className="heading-name">
@@ -33,7 +30,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={me2}
+                src={pan}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px", width: "400px" }}
